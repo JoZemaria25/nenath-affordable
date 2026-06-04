@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { MessageCircle, X, Send, Minimize2 } from 'lucide-react';
+import { MessageCircle, X, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import api from '@/lib/api';
@@ -25,6 +25,14 @@ export default function ChatWidget() {
   }, [user]);
 
   useEffect(() => {
+    const fetchMessages = async () => {
+      if (!chatId) return;
+      try {
+        const { data } = await api.get(`/chat/messages/${chatId}`);
+        setMessages(data.messages);
+      } catch {}
+    };
+
     if (chatId && open) {
       fetchMessages();
       pollRef.current = setInterval(fetchMessages, 5000);
@@ -36,14 +44,6 @@ export default function ChatWidget() {
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
-
-  const fetchMessages = async () => {
-    if (!chatId) return;
-    try {
-      const { data } = await api.get(`/chat/messages/${chatId}`);
-      setMessages(data.messages);
-    } catch {}
-  };
 
   const startChat = () => {
     if (!guestName.trim() && !user) return;

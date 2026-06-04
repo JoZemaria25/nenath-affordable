@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Plus, Edit2, Trash2, X, Save, Upload } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { Plus, Edit2, Trash2, X, Save } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -27,14 +27,14 @@ export default function AdminProducts() {
   const [page, setPage] = useState(1);
   const [total, setTotal] = useState(0);
 
-  const fetchProducts = () => {
+  const fetchProducts = useCallback(() => {
     api.get(`/products?limit=20&page=${page}`).then(r => {
       setProducts(r.data.products);
       setTotal(r.data.total);
     }).catch(() => {}).finally(() => setLoading(false));
-  };
+  }, [page]);
 
-  useEffect(() => { fetchProducts(); }, [page]);
+  useEffect(() => { fetchProducts(); }, [fetchProducts]);
   useEffect(() => { api.get('/categories').then(r => setCategories(r.data.categories)).catch(() => {}); }, []);
 
   const openCreate = () => { setEditing(null); setForm(EMPTY_PRODUCT); setModalOpen(true); };

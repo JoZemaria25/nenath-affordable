@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
@@ -19,15 +19,15 @@ export default function AdminOrders() {
   const [filterStatus, setFilterStatus] = useState('');
   const [selectedOrder, setSelectedOrder] = useState(null);
 
-  const fetchOrders = () => {
+  const fetchOrders = useCallback(() => {
     const params = new URLSearchParams({ page, limit: 20 });
     if (filterStatus) params.set('status', filterStatus);
     api.get(`/admin/orders?${params}`).then(r => {
       setOrders(r.data.orders); setTotal(r.data.total); setPages(r.data.pages);
     }).catch(() => {}).finally(() => setLoading(false));
-  };
+  }, [page, filterStatus]);
 
-  useEffect(() => { fetchOrders(); }, [page, filterStatus]);
+  useEffect(() => { fetchOrders(); }, [fetchOrders]);
 
   const updateOrderStatus = async (orderId, field, value) => {
     try {
