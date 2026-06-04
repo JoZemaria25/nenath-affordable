@@ -1,0 +1,1014 @@
+{
+  "users": [
+    {
+      "user_id": "user_e425b42cbaee",
+      "email": "admin@example.com",
+      "password_hash": "$2b$12$jXcI1JQMzQmVOPUNdzAYKux1h9QWtHS9lW9RyOtUOo3wsnHXjTt3O",
+      "name": "Nenath Admin",
+      "role": "superadmin",
+      "phone": "09133487799",
+      "state": "FCT",
+      "country": "Nigeria",
+      "wishlist": [],
+      "created_at": "2026-05-31T10:02:38.085069+00:00",
+      "_id": "6a1c073e9742a334a6072262"
+    },
+    {
+      "user_id": "user_f6c8b7d74855",
+      "name": "Test User 110310",
+      "email": "testuser110310@example.com",
+      "password_hash": "$2b$12$maaXeg4Up9agwDKNjuwmSeLO2nfw.HWXYw8qrKs9DrUiCO/Y9/hNW",
+      "phone": "08012345678",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "role": "user",
+      "wishlist": [
+        "14b4d836-073b-4b12-a280-777d6ffda52b"
+      ],
+      "created_at": "2026-05-31T10:03:13.118717+00:00",
+      "_id": "6a1c07619742a334a6072277"
+    },
+    {
+      "user_id": "user_beadf84ad721",
+      "name": "Test User 110452",
+      "email": "testuser110452@example.com",
+      "password_hash": "$2b$12$auGx.AH4xggy5GLEcHRLk.ATgtJlZ9TsMCJiomLxIs4/72Flk7Zqa",
+      "phone": "08012345678",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "role": "user",
+      "wishlist": [
+        "14b4d836-073b-4b12-a280-777d6ffda52b"
+      ],
+      "created_at": "2026-05-31T10:04:54.985308+00:00",
+      "_id": "6a1c07c69130bb706cf6e59f"
+    },
+    {
+      "user_id": "user_5b1f0df57a11",
+      "email": "nenathaffordable@gmail.com",
+      "password_hash": "$2b$12$vWq2bc4TnHPURT3CT8rtH.hxpreOHZfwJOjVoR1X0BM/LQ/b9NAAS",
+      "name": "Nenath Admin",
+      "role": "superadmin",
+      "phone": "09133487799",
+      "state": "FCT",
+      "country": "Nigeria",
+      "wishlist": [],
+      "created_at": "2026-05-31T10:05:46.717199+00:00",
+      "_id": "6a1c07fa3661cb2752cd958c"
+    },
+    {
+      "user_id": "user_368b9ad0c49a",
+      "name": "Test User 110618",
+      "email": "testuser110618@example.com",
+      "password_hash": "$2b$12$Fe/04s0dyxl7jtrLpZZa5.num1BOuIH90NpvNV1IwNMds/QMhrdMy",
+      "phone": "08012345678",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "role": "user",
+      "wishlist": [
+        "14b4d836-073b-4b12-a280-777d6ffda52b"
+      ],
+      "created_at": "2026-05-31T10:06:20.844139+00:00",
+      "_id": "6a1c081c3661cb2752cd958d"
+    },
+    {
+      "user_id": "user_27362059e5b5",
+      "name": "Test User 110800",
+      "email": "testuser110800@example.com",
+      "password_hash": "$2b$12$mSgh8L.Lvae8XYsLJphv8OYlP9Y5oMuXf76ZzK.qgB/mTd1/J9bMa",
+      "phone": "08012345678",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "role": "user",
+      "wishlist": [
+        "14b4d836-073b-4b12-a280-777d6ffda52b"
+      ],
+      "created_at": "2026-05-31T10:08:02.485877+00:00",
+      "_id": "6a1c0882cc202171fdef88fd"
+    },
+    {
+      "user_id": "user_507f8ac02641",
+      "name": "Test User 164540",
+      "email": "testuser164540@example.com",
+      "password_hash": "$2b$12$LYzgdr1CBimCjo/bTmt4.uWz6ezyc/m1K45iSAQ4MnkoCjpK2jfRS",
+      "phone": "08012345678",
+      "state": "Lagos",
+      "country": "Nigeria",
+      "role": "user",
+      "wishlist": [
+        "14b4d836-073b-4b12-a280-777d6ffda52b"
+      ],
+      "created_at": "2026-06-02T15:45:42.576956+00:00",
+      "_id": "6a1efaa66adaf601a593a1a7"
+    }
+  ],
+  "categories": [
+    {
+      "name": "Ready-to-Wear Traditional",
+      "gender": "women",
+      "description": "Premium African traditional wear for women",
+      "category_id": "27a71d92-0650-4a27-865d-29c3d2477bbd",
+      "slug": "ready-to-wear-traditional",
+      "image": "https://images.unsplash.com/photo-1757140448054-2aeb0bf3003e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwdHJhZGl0aW9uYWwlMjBkcmVzcyUyMGZhc2hpb24lMjB3b21lbnxlbnwwfHx8fDE3NzU5NjAzMjl8MA&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.089068+00:00",
+      "_id": "6a1c073e9742a334a6072263"
+    },
+    {
+      "name": "Bags",
+      "gender": "women",
+      "description": "Luxury handbags and accessories for women",
+      "category_id": "22385f20-85e7-4fae-a1ee-623edf66106c",
+      "slug": "bags",
+      "image": "https://images.unsplash.com/photo-1709281961493-a9acb8558177?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBmYXNoaW9uJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NzU5NjAzMTh8MA&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.091622+00:00",
+      "_id": "6a1c073e9742a334a6072264"
+    },
+    {
+      "name": "Shoes",
+      "gender": "all",
+      "description": "Premium footwear for men, women and children",
+      "category_id": "65959589-2157-4a95-b25a-dd4c23630313",
+      "slug": "shoes",
+      "image": "https://images.unsplash.com/photo-1713471519808-f9f7bd7c0e19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxwcmVtaXVtJTIwZWxlZ2FudCUyMHNob2VzJTIwc3R1ZGlvfGVufDB8fHx8MTc3NTk2MDMyOXww&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.093053+00:00",
+      "_id": "6a1c073e9742a334a6072265"
+    },
+    {
+      "name": "Suits",
+      "gender": "all",
+      "description": "Elegant suits for men and women",
+      "category_id": "53fbd149-89bf-42eb-abf1-2965304281e7",
+      "slug": "suits",
+      "image": "https://images.unsplash.com/photo-1774636500128-5338eb2f09c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxtZW5zJTIwZWxlZ2FudCUyMHN1aXQlMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.094559+00:00",
+      "_id": "6a1c073e9742a334a6072266"
+    },
+    {
+      "name": "Underwear",
+      "gender": "all",
+      "description": "Comfortable underwear for men, women and children",
+      "category_id": "d0f4613e-8c96-47b8-9d63-783cea43d59f",
+      "slug": "underwear",
+      "image": "https://images.unsplash.com/photo-1630780564223-0aae7795126b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.096555+00:00",
+      "_id": "6a1c073e9742a334a6072267"
+    },
+    {
+      "name": "Clothing",
+      "gender": "all",
+      "description": "Fashionable clothing for men, women and children",
+      "category_id": "85b5a06c-17f6-485f-ae75-34bb8822bcef",
+      "slug": "clothing",
+      "image": "https://images.unsplash.com/photo-1630780565118-511258d74d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.099555+00:00",
+      "_id": "6a1c073e9742a334a6072268"
+    },
+    {
+      "name": "Accessories",
+      "gender": "all",
+      "description": "Fashion accessories to complete your look",
+      "category_id": "4efe0834-2102-4770-80b0-73d8e70f1786",
+      "slug": "accessories",
+      "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+      "created_at": "2026-05-31T10:02:38.102053+00:00",
+      "_id": "6a1c073e9742a334a6072269"
+    }
+  ],
+  "products": [
+    {
+      "name": "Adire Silk Maxi Dress",
+      "price": 45000,
+      "discount_price": 38000,
+      "badge": "new",
+      "description": "Stunning hand-dyed Adire silk maxi dress featuring intricate traditional patterns. This masterpiece blends African heritage with contemporary fashion, perfect for special occasions and elegant outings.",
+      "features": [
+        "Premium Adire silk fabric",
+        "Hand-dyed traditional patterns",
+        "Flattering maxi silhouette",
+        "Breathable and lightweight"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Indigo",
+        "White",
+        "Brown"
+      ],
+      "stock": 15,
+      "images": [
+        "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "14b4d836-073b-4b12-a280-777d6ffda52b",
+      "slug": "adire-silk-maxi-dress",
+      "category_id": "27a71d92-0650-4a27-865d-29c3d2477bbd",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.105060+00:00",
+      "updated_at": "2026-05-31T10:02:38.105060+00:00",
+      "_id": "6a1c073e9742a334a607226a"
+    },
+    {
+      "name": "Ankara Print Wrap Dress",
+      "price": 35000,
+      "badge": "hot",
+      "description": "A beautifully crafted Ankara print wrap dress that celebrates African textile artistry. Features a flattering wrap design that suits all body types.",
+      "features": [
+        "100% African Ankara print",
+        "Adjustable wrap design",
+        "Durable stitching",
+        "Machine washable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Multi-color",
+        "Blue",
+        "Red"
+      ],
+      "stock": 22,
+      "images": [
+        "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "26c8bec2-715c-4369-87c2-1572da063c67",
+      "slug": "ankara-print-wrap-dress",
+      "category_id": "27a71d92-0650-4a27-865d-29c3d2477bbd",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.107189+00:00",
+      "updated_at": "2026-05-31T10:02:38.107189+00:00",
+      "_id": "6a1c073e9742a334a607226b"
+    },
+    {
+      "name": "Premium Leather Tote Bag",
+      "price": 55000,
+      "discount_price": 48000,
+      "badge": "limited",
+      "description": "Handcrafted premium leather tote bag with gold-tone hardware. Spacious interior with multiple compartments for everyday luxury.",
+      "features": [
+        "Genuine leather",
+        "Gold-tone hardware",
+        "Multiple compartments",
+        "Adjustable shoulder strap"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Black",
+        "Brown",
+        "Tan"
+      ],
+      "stock": 8,
+      "images": [
+        "https://images.unsplash.com/photo-1761646238914-2dad041491e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmYXNoaW9uJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NzU5NjAzMTh8MA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "24074f8b-a6c5-425f-a90b-0d28f95b577b",
+      "slug": "premium-leather-tote-bag",
+      "category_id": "22385f20-85e7-4fae-a1ee-623edf66106c",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.109232+00:00",
+      "updated_at": "2026-05-31T10:02:38.109232+00:00",
+      "_id": "6a1c073e9742a334a607226c"
+    },
+    {
+      "name": "Crossbody Mini Bag",
+      "price": 28000,
+      "description": "Sleek crossbody mini bag perfect for on-the-go. Crafted from high-quality faux leather with a minimalist design.",
+      "features": [
+        "High-quality faux leather",
+        "Adjustable strap",
+        "Secure zip closure",
+        "Compact yet spacious"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Black",
+        "Cream",
+        "Burgundy"
+      ],
+      "stock": 30,
+      "images": [
+        "https://images.unsplash.com/photo-1761646238914-2dad041491e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmYXNoaW9uJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NzU5NjAzMTh8MA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "496c5d2e-b48f-4be8-b07f-4603b64406f0",
+      "slug": "crossbody-mini-bag",
+      "category_id": "22385f20-85e7-4fae-a1ee-623edf66106c",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "badge": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.112330+00:00",
+      "updated_at": "2026-05-31T10:02:38.112330+00:00",
+      "_id": "6a1c073e9742a334a607226d"
+    },
+    {
+      "name": "Oxford Classic Leather Shoes",
+      "price": 42000,
+      "discount_price": 36000,
+      "badge": "new",
+      "description": "Classic Oxford leather shoes with a modern twist. Perfect for formal occasions and business meetings.",
+      "features": [
+        "Full-grain leather",
+        "Cushioned insole",
+        "Non-slip sole",
+        "Classic Oxford design"
+      ],
+      "sizes": [
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
+      "colors": [
+        "Black",
+        "Brown"
+      ],
+      "stock": 18,
+      "images": [
+        "https://images.unsplash.com/photo-1775036423115-b0f46d5b5694?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxtZW5zJTIwZWxlZ2FudCUyMHN1aXQlMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "98384250-f29b-48d0-b37f-66f4b7ddeddc",
+      "slug": "oxford-classic-leather-shoes",
+      "category_id": "65959589-2157-4a95-b25a-dd4c23630313",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.117784+00:00",
+      "updated_at": "2026-05-31T10:02:38.117784+00:00",
+      "_id": "6a1c073e9742a334a607226e"
+    },
+    {
+      "name": "Stiletto Heel Pumps",
+      "price": 32000,
+      "badge": "hot",
+      "description": "Elegant stiletto heel pumps that add sophistication to any outfit. Premium suede finish with cushioned footbed.",
+      "features": [
+        "Premium suede material",
+        "4-inch stiletto heel",
+        "Cushioned footbed",
+        "Pointed toe design"
+      ],
+      "sizes": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
+      "colors": [
+        "Black",
+        "Red",
+        "Nude"
+      ],
+      "stock": 25,
+      "images": [
+        "https://images.unsplash.com/photo-1775036423115-b0f46d5b5694?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxtZW5zJTIwZWxlZ2FudCUyMHN1aXQlMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "3e35b15f-2a15-4550-8737-60a3447bcaab",
+      "slug": "stiletto-heel-pumps",
+      "category_id": "65959589-2157-4a95-b25a-dd4c23630313",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.122313+00:00",
+      "updated_at": "2026-05-31T10:02:38.122313+00:00",
+      "_id": "6a1c073e9742a334a607226f"
+    },
+    {
+      "name": "Italian Slim-Fit Suit",
+      "price": 85000,
+      "discount_price": 72000,
+      "badge": "limited",
+      "description": "Impeccably tailored Italian slim-fit suit in premium wool blend. A statement piece for the modern gentleman.",
+      "features": [
+        "Premium wool blend",
+        "Italian slim-fit cut",
+        "Fully lined jacket",
+        "Flat-front trousers"
+      ],
+      "sizes": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "colors": [
+        "Navy",
+        "Charcoal",
+        "Black"
+      ],
+      "stock": 10,
+      "images": [
+        "https://images.unsplash.com/photo-1775036423115-b0f46d5b5694?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxtZW5zJTIwZWxlZ2FudCUyMHN1aXQlMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "c46628ce-d23a-4404-bd5f-5302396f3509",
+      "slug": "italian-slim-fit-suit",
+      "category_id": "53fbd149-89bf-42eb-abf1-2965304281e7",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.124796+00:00",
+      "updated_at": "2026-05-31T10:02:38.124796+00:00",
+      "_id": "6a1c073e9742a334a6072270"
+    },
+    {
+      "name": "Women Power Suit Set",
+      "price": 68000,
+      "badge": "new",
+      "description": "Boss-worthy power suit set for the modern woman. Tailored blazer with matching straight-leg trousers.",
+      "features": [
+        "Tailored fit",
+        "Premium poly-blend fabric",
+        "Matching set",
+        "Professional elegance"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Blush Pink"
+      ],
+      "stock": 14,
+      "images": [
+        "https://images.unsplash.com/photo-1630780565118-511258d74d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "766a5ea4-c0e4-4be3-a46a-57f99e216b8c",
+      "slug": "women-power-suit-set",
+      "category_id": "53fbd149-89bf-42eb-abf1-2965304281e7",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.126775+00:00",
+      "updated_at": "2026-05-31T10:02:38.126775+00:00",
+      "_id": "6a1c073e9742a334a6072271"
+    },
+    {
+      "name": "Premium Cotton Boxer Set (3 Pack)",
+      "price": 12000,
+      "description": "Ultra-comfortable premium cotton boxer set. Breathable fabric with elastic waistband for all-day comfort.",
+      "features": [
+        "100% premium cotton",
+        "Breathable fabric",
+        "Elastic waistband",
+        "3-pack value"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Assorted"
+      ],
+      "stock": 50,
+      "images": [
+        "https://images.unsplash.com/photo-1630780565118-511258d74d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "61a638cb-c781-4f46-ac4d-ade7543d3497",
+      "slug": "premium-cotton-boxer-set-3-pack",
+      "category_id": "d0f4613e-8c96-47b8-9d63-783cea43d59f",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "badge": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.129753+00:00",
+      "updated_at": "2026-05-31T10:02:38.129753+00:00",
+      "_id": "6a1c073e9742a334a6072272"
+    },
+    {
+      "name": "Cashmere Blend Sweater",
+      "price": 38000,
+      "discount_price": 32000,
+      "badge": "new",
+      "description": "Luxuriously soft cashmere blend sweater perfect for cool evenings. Classic crew neck design with ribbed cuffs.",
+      "features": [
+        "Cashmere-wool blend",
+        "Crew neck design",
+        "Ribbed cuffs and hem",
+        "Machine washable"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Camel",
+        "Grey",
+        "Navy",
+        "Cream"
+      ],
+      "stock": 20,
+      "images": [
+        "https://images.unsplash.com/photo-1630780565118-511258d74d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "80ec7843-14dc-4409-847d-d5d1c7b3a734",
+      "slug": "cashmere-blend-sweater",
+      "category_id": "85b5a06c-17f6-485f-ae75-34bb8822bcef",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.135731+00:00",
+      "updated_at": "2026-05-31T10:02:38.135731+00:00",
+      "_id": "6a1c073e9742a334a6072273"
+    },
+    {
+      "name": "Linen Summer Shirt",
+      "price": 22000,
+      "badge": "hot",
+      "description": "Breathable linen summer shirt with a relaxed fit. Perfect for tropical weather and casual outings.",
+      "features": [
+        "100% premium linen",
+        "Relaxed fit",
+        "Button-front design",
+        "Breathable fabric"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Sky Blue",
+        "Sage Green"
+      ],
+      "stock": 35,
+      "images": [
+        "https://images.unsplash.com/photo-1630780565118-511258d74d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "e16954a0-b3c3-4672-bcf1-3c1a8fcfefa8",
+      "slug": "linen-summer-shirt",
+      "category_id": "85b5a06c-17f6-485f-ae75-34bb8822bcef",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.138929+00:00",
+      "updated_at": "2026-05-31T10:02:38.138929+00:00",
+      "_id": "6a1c073e9742a334a6072274"
+    },
+    {
+      "name": "Gold-Plated Chain Necklace",
+      "price": 18000,
+      "badge": "limited",
+      "description": "Elegant gold-plated chain necklace that adds a touch of luxury to any outfit. Hypoallergenic and tarnish-resistant.",
+      "features": [
+        "18K gold-plated",
+        "Hypoallergenic",
+        "Tarnish-resistant",
+        "Adjustable length"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Gold"
+      ],
+      "stock": 40,
+      "images": [
+        "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "product_id": "d1c7a52b-b98c-4015-8397-1b4e733dbeb1",
+      "slug": "gold-plated-chain-necklace",
+      "category_id": "4efe0834-2102-4770-80b0-73d8e70f1786",
+      "rules": "No refund after purchase (unless damaged). Exchange allowed within 48 hours (conditions apply). Customers must confirm size before ordering. Payment must be completed before processing. Delivery timeline depends on location.",
+      "care_instructions": "Do not bleach. Hand wash or dry clean recommended. Iron at low temperature. Store in a cool, dry place.",
+      "promotional_text": "Limited stock available - order now.",
+      "discount_price": null,
+      "status": "in_stock",
+      "views": 0,
+      "created_at": "2026-05-31T10:02:38.141870+00:00",
+      "updated_at": "2026-05-31T10:02:38.141870+00:00",
+      "_id": "6a1c073e9742a334a6072275"
+    }
+  ],
+  "settings": [
+    {
+      "setting_id": "global",
+      "bank_name": "",
+      "account_name": "",
+      "account_number": "",
+      "whatsapp_number": "2349133487799",
+      "contact_phone": "09133487799",
+      "ceo_name": "Nenzab David Bunshak",
+      "homepage_text": "Luxury Within Reach, Style Without Limits.",
+      "banner_images": [],
+      "address": "Garki Ultra Modern Market, Ado Bayero Block, Shop 67, Abuja, Nigeria",
+      "_id": "6a1c073e9742a334a6072276"
+    }
+  ],
+  "login_attempts": [],
+  "carts": [],
+  "orders": [
+    {
+      "order_id": "9f6831e4-dba4-468b-86a7-640c95884b5f",
+      "user_id": "user_f6c8b7d74855",
+      "customer_name": "Test Customer",
+      "customer_email": "testuser110310@example.com",
+      "customer_phone": "08012345678",
+      "shipping_address": "123 Test Street, Test Area",
+      "city": "Lagos",
+      "state": "Lagos",
+      "items": [
+        {
+          "product_id": "14b4d836-073b-4b12-a280-777d6ffda52b",
+          "name": "Adire Silk Maxi Dress",
+          "price": 38000,
+          "quantity": 2,
+          "size": "S",
+          "color": "Indigo",
+          "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+          "item_total": 76000
+        }
+      ],
+      "total": 76000,
+      "status": "pending",
+      "payment_status": "pending",
+      "payment_proof": null,
+      "notes": "Test order",
+      "created_at": "2026-05-31T10:03:35.861683+00:00",
+      "updated_at": "2026-05-31T10:03:35.861683+00:00",
+      "_id": "6a1c07779742a334a6072279"
+    },
+    {
+      "order_id": "c2c1a907-dc04-46f2-9f18-287815b67c38",
+      "user_id": "user_beadf84ad721",
+      "customer_name": "Test Customer",
+      "customer_email": "testuser110452@example.com",
+      "customer_phone": "08012345678",
+      "shipping_address": "123 Test Street, Test Area",
+      "city": "Lagos",
+      "state": "Lagos",
+      "items": [
+        {
+          "product_id": "14b4d836-073b-4b12-a280-777d6ffda52b",
+          "name": "Adire Silk Maxi Dress",
+          "price": 38000,
+          "quantity": 2,
+          "size": "S",
+          "color": "Indigo",
+          "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+          "item_total": 76000
+        }
+      ],
+      "total": 76000,
+      "status": "pending",
+      "payment_status": "pending",
+      "payment_proof": null,
+      "notes": "Test order",
+      "created_at": "2026-05-31T10:05:17.692850+00:00",
+      "updated_at": "2026-05-31T10:05:17.692850+00:00",
+      "_id": "6a1c07dd9130bb706cf6e5a1"
+    },
+    {
+      "order_id": "b3d776e9-8fdd-4781-bf96-3f7957f31ded",
+      "user_id": "user_368b9ad0c49a",
+      "customer_name": "Test Customer",
+      "customer_email": "testuser110618@example.com",
+      "customer_phone": "08012345678",
+      "shipping_address": "123 Test Street, Test Area",
+      "city": "Lagos",
+      "state": "Lagos",
+      "items": [
+        {
+          "product_id": "14b4d836-073b-4b12-a280-777d6ffda52b",
+          "name": "Adire Silk Maxi Dress",
+          "price": 38000,
+          "quantity": 2,
+          "size": "S",
+          "color": "Indigo",
+          "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+          "item_total": 76000
+        }
+      ],
+      "total": 76000,
+      "status": "pending",
+      "payment_status": "pending",
+      "payment_proof": null,
+      "notes": "Test order",
+      "created_at": "2026-05-31T10:06:43.512111+00:00",
+      "updated_at": "2026-05-31T10:06:43.512111+00:00",
+      "_id": "6a1c08333661cb2752cd958f"
+    },
+    {
+      "order_id": "474b7fa6-9caf-4593-a60a-6f8b763a2d69",
+      "user_id": "user_27362059e5b5",
+      "customer_name": "Test Customer",
+      "customer_email": "testuser110800@example.com",
+      "customer_phone": "08012345678",
+      "shipping_address": "123 Test Street, Test Area",
+      "city": "Lagos",
+      "state": "Lagos",
+      "items": [
+        {
+          "product_id": "14b4d836-073b-4b12-a280-777d6ffda52b",
+          "name": "Adire Silk Maxi Dress",
+          "price": 38000,
+          "quantity": 2,
+          "size": "S",
+          "color": "Indigo",
+          "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+          "item_total": 76000
+        }
+      ],
+      "total": 76000,
+      "status": "pending",
+      "payment_status": "pending",
+      "payment_proof": null,
+      "notes": "Test order",
+      "created_at": "2026-05-31T10:08:25.135140+00:00",
+      "updated_at": "2026-05-31T10:08:25.135140+00:00",
+      "_id": "6a1c0899cc202171fdef88ff"
+    },
+    {
+      "order_id": "ca390ad2-291c-4d27-b56a-0142a66625bb",
+      "user_id": "user_507f8ac02641",
+      "customer_name": "Test Customer",
+      "customer_email": "testuser164540@example.com",
+      "customer_phone": "08012345678",
+      "shipping_address": "123 Test Street, Test Area",
+      "city": "Lagos",
+      "state": "Lagos",
+      "items": [
+        {
+          "product_id": "14b4d836-073b-4b12-a280-777d6ffda52b",
+          "name": "Adire Silk Maxi Dress",
+          "price": 38000,
+          "quantity": 2,
+          "size": "S",
+          "color": "Indigo",
+          "image": "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+          "item_total": 76000
+        }
+      ],
+      "total": 76000,
+      "status": "pending",
+      "payment_status": "pending",
+      "payment_proof": null,
+      "notes": "Test order",
+      "created_at": "2026-06-02T15:46:10.285997+00:00",
+      "updated_at": "2026-06-02T15:46:10.285997+00:00",
+      "_id": "6a1efac26adaf601a593a1a9"
+    }
+  ],
+  "notifications": [
+    {
+      "notification_id": "6afe90f2-950f-465b-8616-38f145c3be1b",
+      "type": "new_order",
+      "message": "New order #9f6831e4 from Test User 110310",
+      "order_id": "9f6831e4-dba4-468b-86a7-640c95884b5f",
+      "read": false,
+      "created_at": "2026-05-31T10:03:35.871160+00:00",
+      "_id": "6a1c07779742a334a607227a"
+    },
+    {
+      "notification_id": "a99d7426-4135-4e2b-b2aa-ef270f1116aa",
+      "type": "new_order",
+      "message": "New order #c2c1a907 from Test User 110452",
+      "order_id": "c2c1a907-dc04-46f2-9f18-287815b67c38",
+      "read": false,
+      "created_at": "2026-05-31T10:05:17.699804+00:00",
+      "_id": "6a1c07dd9130bb706cf6e5a2"
+    },
+    {
+      "notification_id": "22d3ca61-524c-459c-bb44-d8a59892ba75",
+      "type": "new_order",
+      "message": "New order #b3d776e9 from Test User 110618",
+      "order_id": "b3d776e9-8fdd-4781-bf96-3f7957f31ded",
+      "read": false,
+      "created_at": "2026-05-31T10:06:43.526320+00:00",
+      "_id": "6a1c08333661cb2752cd9590"
+    },
+    {
+      "notification_id": "0bf953fe-f6a3-462b-9496-e685a382c224",
+      "type": "new_order",
+      "message": "New order #474b7fa6 from Test User 110800",
+      "order_id": "474b7fa6-9caf-4593-a60a-6f8b763a2d69",
+      "read": false,
+      "created_at": "2026-05-31T10:08:25.142158+00:00",
+      "_id": "6a1c0899cc202171fdef8900"
+    },
+    {
+      "notification_id": "5e40b5b3-a01b-4009-9f8b-e9464ccb227c",
+      "type": "new_order",
+      "message": "New order #ca390ad2 from Test User 164540",
+      "order_id": "ca390ad2-291c-4d27-b56a-0142a66625bb",
+      "read": false,
+      "created_at": "2026-06-02T15:46:10.313293+00:00",
+      "_id": "6a1efac26adaf601a593a1aa"
+    }
+  ],
+  "visitor_logs": [
+    {
+      "date": "2026-05-31",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-05-31T10:09:42.201639+00:00",
+      "_id": "6a1c08e6cc202171fdef8901"
+    },
+    {
+      "date": "2026-05-31",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-05-31T10:09:42.211578+00:00",
+      "_id": "6a1c08e6cc202171fdef8902"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T14:02:06.142468+00:00",
+      "_id": "6a1ee25e6adaf601a593a199"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T14:02:06.150469+00:00",
+      "_id": "6a1ee25e6adaf601a593a19a"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T14:02:06.155467+00:00",
+      "_id": "6a1ee25e6adaf601a593a19b"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T14:02:06.165611+00:00",
+      "_id": "6a1ee25e6adaf601a593a19c"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/product/24074f8b-a6c5-425f-a90b-0d28f95b577b",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T14:04:06.900770+00:00",
+      "_id": "6a1ee2d66adaf601a593a19d"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T14:04:38.536135+00:00",
+      "_id": "6a1ee2f66adaf601a593a19e"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "timestamp": "2026-06-02T14:10:15.679417+00:00",
+      "_id": "6a1ee4476adaf601a593a19f"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36",
+      "timestamp": "2026-06-02T14:10:15.689235+00:00",
+      "_id": "6a1ee4476adaf601a593a1a0"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:13:33.893046+00:00",
+      "_id": "6a1ef31d6adaf601a593a1a1"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:13:33.913674+00:00",
+      "_id": "6a1ef31d6adaf601a593a1a2"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:25:42.834783+00:00",
+      "_id": "6a1ef5f66adaf601a593a1a3"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:25:42.845207+00:00",
+      "_id": "6a1ef5f66adaf601a593a1a4"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:34:39.454753+00:00",
+      "_id": "6a1ef80f6adaf601a593a1a5"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:34:39.466031+00:00",
+      "_id": "6a1ef80f6adaf601a593a1a6"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:47:12.774867+00:00",
+      "_id": "6a1efb006adaf601a593a1ab"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:47:16.262703+00:00",
+      "_id": "6a1efb046adaf601a593a1ac"
+    },
+    {
+      "date": "2026-06-02",
+      "ip": "127.0.0.1",
+      "page": "/product/24074f8b-a6c5-425f-a90b-0d28f95b577b",
+      "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36 Edg/148.0.0.0",
+      "timestamp": "2026-06-02T15:48:56.390967+00:00",
+      "_id": "6a1efb686adaf601a593a1ad"
+    }
+  ],
+  "sales_records": [],
+  "reviews": []
+}

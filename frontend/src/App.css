@@ -1,0 +1,5 @@
+/* Reset */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }

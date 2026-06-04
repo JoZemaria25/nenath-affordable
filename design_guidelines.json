@@ -1,0 +1,139 @@
+{
+  "theme": "Light",
+  "archetype": "4 (Swiss & High-Contrast) mixed with 5 (Jewel & Luxury)",
+  "brand": {
+    "name": "NENATH AFFORDABLE",
+    "tagline": "Luxury Within Reach, Style Without Limits.",
+    "hq": "Abuja, Nigeria",
+    "copyright": "2026"
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Playfair Display",
+      "body": "Manrope",
+      "accent": "Cormorant Garamond"
+    },
+    "scale": {
+      "h1": "text-5xl sm:text-6xl lg:text-7xl font-light tracking-tight",
+      "h2": "text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight",
+      "h3": "text-xl sm:text-2xl font-light",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-sm sm:text-base font-normal leading-relaxed",
+      "label": "text-xs font-bold uppercase tracking-[0.2em]"
+    },
+    "rules": [
+      "Use Playfair Display for all main editorial headings.",
+      "Use Manrope for product descriptions, ui text, and buttons for maximum legibility.",
+      "Use uppercase tracking-widest for overlines, small labels, and category names."
+    ]
+  },
+  "colors": {
+    "primary": "#0A0A0A",
+    "background": "#FFFFFF",
+    "secondary": "#F5F1EB",
+    "accent": "#1E3A8A",
+    "highlight": "#C6A85B",
+    "text": {
+      "main": "#0A0A0A",
+      "muted": "#555555",
+      "inverse": "#FFFFFF"
+    },
+    "state": {
+      "success": "#166534",
+      "error": "#991B1B",
+      "warning": "#C6A85B"
+    },
+    "rules": [
+      "Keep the interface mostly monochrome (Deep Black on White) to let the fashion imagery stand out.",
+      "Use Soft Beige (#F5F1EB) for secondary sections, large padding backgrounds, or product card backgrounds.",
+      "Use Muted Gold (#C6A85B) for premium badges ('New', 'Limited', 'Hot') or subtle hover borders.",
+      "Use Royal Blue (#1E3A8A) sparingly for secondary CTAs or interactive highlights."
+    ]
+  },
+  "layout_spacing": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_gap": "py-16 sm:py-24 lg:py-32",
+    "grid": {
+      "catalog": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12",
+      "bento_hero": "grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-8"
+    },
+    "rules": [
+      "Use generous spacing (p-8, p-12) to create a premium, unhurried feel.",
+      "Never center everything; use strong left-alignments for text-heavy areas.",
+      "Implement a sleek, minimal, and sticky navigation bar with glassmorphism (backdrop-blur-md bg-white/80)."
+    ]
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-white px-8 py-4 uppercase text-xs tracking-[0.15em] hover:bg-black/80 transition-all duration-300",
+      "secondary": "bg-transparent border border-primary text-primary px-8 py-4 uppercase text-xs tracking-[0.15em] hover:bg-secondary transition-all duration-300",
+      "whatsapp_fab": "fixed bottom-6 right-6 bg-green-500 text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform z-50 flex items-center justify-center"
+    },
+    "cards": {
+      "product": "group cursor-pointer flex flex-col gap-4",
+      "image_wrapper": "relative overflow-hidden aspect-[3/4] bg-secondary",
+      "badges": "absolute top-4 left-4 flex flex-col gap-2 z-10"
+    },
+    "badges": {
+      "new": "bg-primary text-white text-[10px] uppercase tracking-wider px-2 py-1",
+      "hot": "bg-[#991B1B] text-white text-[10px] uppercase tracking-wider px-2 py-1",
+      "limited": "bg-highlight text-white text-[10px] uppercase tracking-wider px-2 py-1"
+    },
+    "rules": [
+      "Product images must have a subtle scale-up effect on hover (group-hover:scale-105 duration-700 ease-out).",
+      "Add 'Quick Add' button that fades in on product card hover.",
+      "Use slide-in Sheet (Shadcn) for Shopping Cart, not a separate page.",
+      "Admin Dashboard should use a high-density, sharp-edged layout (Swiss & High-Contrast archetype) with a persistent sidebar."
+    ]
+  },
+  "animations": {
+    "micro": "transition-all duration-300 ease-in-out",
+    "image_hover": "transition-transform duration-700 ease-out hover:scale-105",
+    "page_load": "fade-in up with stagger for grid items",
+    "rules": [
+      "Keep animations sophisticated and subtle. No bouncy or playful effects.",
+      "Use framer-motion for smooth staggered reveal of product grids.",
+      "Lenis smooth scrolling is highly recommended for the editorial feel."
+    ]
+  },
+  "media": {
+    "logos": {
+      "main": "https://customer-assets.emergentagent.com/job_dac108e2-e034-49b0-b9b6-92469beae062/artifacts/p34dttcq_nenathaff.JPG"
+    },
+    "references": {
+      "aesthetic": "https://customer-assets.emergentagent.com/job_dac108e2-e034-49b0-b9b6-92469beae062/artifacts/2cg76swi_nenath.PNG"
+    },
+    "images": {
+      "hero_banners": [
+        "https://images.unsplash.com/photo-1758900727792-e411697fc0a7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwxfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1759725608366-ea7a6e64dbe3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwzfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "categories": {
+        "traditional_women": "https://images.unsplash.com/photo-1757140448054-2aeb0bf3003e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwxfHxhZnJpY2FuJTIwdHJhZGl0aW9uYWwlMjBkcmVzcyUyMGZhc2hpb24lMjB3b21lbnxlbnwwfHx8fDE3NzU5NjAzMjl8MA&ixlib=rb-4.1.0&q=85",
+        "bags_women": "https://images.unsplash.com/photo-1709281961493-a9acb8558177?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBmYXNoaW9uJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NzU5NjAzMTh8MA&ixlib=rb-4.1.0&q=85",
+        "shoes": "https://images.unsplash.com/photo-1713471519808-f9f7bd7c0e19?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzZ8MHwxfHNlYXJjaHwyfHxwcmVtaXVtJTIwZWxlZ2FudCUyMHNob2VzJTIwc3R1ZGlvfGVufDB8fHx8MTc3NTk2MDMyOXww&ixlib=rb-4.1.0&q=85",
+        "suits": "https://images.unsplash.com/photo-1774636500128-5338eb2f09c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwxfHxtZW5zJTIwZWxlZ2FudCUyMHN1aXQlMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+        "clothing_general": "https://images.unsplash.com/photo-1630780564223-0aae7795126b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85"
+      },
+      "products": [
+        "https://images.unsplash.com/photo-1758900728131-32b8fa6fcda4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxmYXNoaW9uJTIwZWRpdG9yaWFsJTIwd29tZW4lMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1761646238914-2dad041491e2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmYXNoaW9uJTIwaGFuZGJhZ3xlbnwwfHx8fDE3NzU5NjAzMTh8MA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1775036423115-b0f46d5b5694?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTJ8MHwxfHNlYXJjaHwyfHxtZW5zJTIwZWxlZ2FudCUyMHN1aXQlMjBzdHVkaW98ZW58MHx8fHwxNzc1OTYwMzE4fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1630780565118-511258d74d08?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MTN8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwZmFzaGlvbiUyMGNsb3RoaW5nJTIwbW9kZWx8ZW58MHx8fHwxNzc1OTYwMzI5fDA&ixlib=rb-4.1.0&q=85"
+      ]
+    }
+  },
+  "testing": {
+    "data_testid_rules": "All interactive and key informational elements MUST include a `data-testid` attribute using kebab-case and role-based naming (e.g., `data-testid='add-to-cart-button'`)."
+  },
+  "instructions_to_main_agent": [
+    "Ensure all fonts are imported correctly from Google Fonts (Playfair Display, Manrope, Cormorant Garamond).",
+    "Build the UI focusing heavily on high-quality image presentation with the images provided in the media object. Use aspect-ratio [3/4] for product cards.",
+    "Do NOT use thick borders or heavy box shadows. Rely on 1px subtle borders (border-gray-200) and negative space to structure the layout.",
+    "Implement the 'Shopping Cart Slide-in' using the Shadcn Sheet component. It should feel lightweight and seamless.",
+    "In the Admin Dashboard, use a more compressed layout (Swiss & High-Contrast archetype style), maximizing screen real estate for data tables and settings.",
+    "Add a floating WhatsApp button fixed to the bottom-right corner using lucide-react or react-icons for the logo.",
+    "Follow the color palette strictly. Deep Black (#0A0A0A) is the primary text and background color for inverted elements.",
+    "Ensure the hero section on the homepage has a massive, editorial-style typography overlay on top of the hero banner image."
+  ]
+}
