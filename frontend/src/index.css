@@ -25,21 +25,21 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .font-accent {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 300;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: italic;
 }
 
 .font-heading {
-  font-family: 'Manrope', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.15em;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .font-body {
