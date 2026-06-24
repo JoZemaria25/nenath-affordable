@@ -233,7 +233,7 @@ export default function ProductDetailPage() {
             <div className="flex items-center gap-3 pt-2">
               <a
                 data-testid="share-whatsapp-btn"
-                href={`https://wa.me/?text=${encodeURIComponent(`Check out ${product.name} on NENATH AFFORDABLE!\n${formatPrice(product.discount_price || product.price)}\n${window.location.href}`)}`}
+                href={`https://wa.me/?text=${encodeURIComponent(`Check out ${product.name} on NENATH AFFORDABLES!\n${formatPrice(product.discount_price || product.price)}\n${window.location.href}`)}`}
                 target="_blank" rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2.5 bg-[#25D366] text-white text-xs uppercase tracking-wider hover:bg-[#20bd5a] transition-colors"
               >
@@ -254,7 +254,7 @@ export default function ProductDetailPage() {
                 data-testid="share-native-btn"
                 onClick={() => {
                   if (navigator.share) {
-                    navigator.share({ title: product.name, text: `${product.name} - ${formatPrice(product.discount_price || product.price)} on NENATH AFFORDABLE`, url: window.location.href });
+                    navigator.share({ title: product.name, text: `${product.name} - ${formatPrice(product.discount_price || product.price)} on NENATH AFFORDABLES`, url: window.location.href });
                   } else { toast.info('Use the copy link button to share'); }
                 }}
                 className="p-2.5 border border-gray-200 hover:bg-gray-50 transition-colors"

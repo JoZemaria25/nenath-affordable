@@ -85,10 +85,10 @@ export default function ContactPage() {
             <p className="label-uppercase text-[#C6A85B] mb-4">CEO & Founder</p>
             <h3 className="text-3xl font-heading font-light tracking-tight">Nenzab David Bunshak</h3>
             <p className="text-sm text-gray-600 font-body leading-relaxed mt-4">
-              "At NENATH AFFORDABLE, we believe luxury fashion should be accessible to everyone. Our mission is to deliver premium quality at affordable prices, celebrating the beauty of African fashion on the global stage."
+              "At NENATH AFFORDABLES, we believe luxury fashion should be accessible to everyone. Our mission is to deliver premium quality at affordable prices, celebrating the beauty of African fashion on the global stage."
             </p>
             <div className="mt-8 pt-8 border-t border-gray-300/50">
-              <p className="text-xs text-gray-500 font-body">NENATH AFFORDABLE</p>
+              <p className="text-xs text-gray-500 font-body">NENATH AFFORDABLES</p>
               <p className="text-xs text-gray-500 font-body mt-1">Garki Ultra Modern Market, Ado Bayero Block, Shop 67, Abuja, Nigeria</p>
               <p className="font-accent italic text-lg text-gray-700 mt-4">"Luxury Within Reach, Style Without Limits."</p>
             </div>

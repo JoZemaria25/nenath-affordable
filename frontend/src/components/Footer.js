@@ -20,7 +20,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div>
-            <img src={LOGO_URL} alt="NENATH AFFORDABLE" className="h-12 w-auto object-contain mb-4 brightness-0 invert" />
+            <img src={LOGO_URL} alt="NENATH AFFORDABLES" className="h-12 w-auto object-contain mb-4 brightness-0 invert" />
             <p className="text-sm text-gray-400 leading-relaxed mt-4">
               Luxury Within Reach, Style Without Limits. Premium fashion that celebrates African elegance with global standards.
             </p>
@@ -69,7 +69,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p className="text-xs text-gray-500">&copy; 2026 NENATH AFFORDABLE. All rights reserved.</p>
+          <p className="text-xs text-gray-500">&copy; 2026 NENATH AFFORDABLES. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span className="text-xs text-gray-500">Privacy Policy</span>
             <span className="text-xs text-gray-500">Terms of Service</span>

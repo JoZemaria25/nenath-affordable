@@ -90,7 +90,7 @@ export default function ChatWidget() {
           {/* Header */}
           <div className="bg-[#0A0A0A] text-white px-4 py-3 flex items-center justify-between flex-shrink-0">
             <div>
-              <p className="text-sm font-semibold">NENATH Support</p>
+              <p className="text-sm font-semibold">Nenath Affordables Support</p>
               <p className="text-[10px] text-gray-400">We typically reply within minutes</p>
             </div>
             <button onClick={() => setOpen(false)} className="p-1 hover:bg-white/10 rounded"><X size={16} /></button>

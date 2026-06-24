@@ -36,7 +36,7 @@ export default function SignupPage() {
       <div className="w-full max-w-md px-6 py-12">
         <div className="text-center mb-8">
           <h1 className="text-3xl sm:text-4xl font-heading font-light tracking-tight">Create Account</h1>
-          <p className="text-sm text-gray-500 mt-2 font-body">Join NENATH AFFORDABLE</p>
+          <p className="text-sm text-gray-500 mt-2 font-body">Join NENATH AFFORDABLES</p>
         </div>
 
         {error && <div data-testid="signup-error" className="mb-4 p-3 bg-red-50 text-red-700 text-sm border border-red-200">{error}</div>}

@@ -21,7 +21,7 @@ export default async function handler(req, res) {
     auth: { user, pass }
   });
 
-  const STORE_NAME = "NENATH AFFORDABLE";
+  const STORE_NAME = "NENATH AFFORDABLES";
   const STORE_URL = process.env.REACT_APP_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000');
 
   let subject = "";
@@ -47,7 +47,7 @@ export default async function handler(req, res) {
         ${email_header()}
         <div style="padding:32px;">
             <h2 style="font-family:'Georgia',serif;font-size:22px;color:#0A0A0A;">Welcome, ${data.name}!</h2>
-            <p style="color:#555;font-size:14px;line-height:1.6;">Thank you for joining NENATH AFFORDABLE. We're thrilled to have you as part of our fashion community.</p>
+            <p style="color:#555;font-size:14px;line-height:1.6;">Thank you for joining NENATH AFFORDABLES. We're thrilled to have you as part of our fashion community.</p>
             <p style="color:#555;font-size:14px;line-height:1.6;">Explore our premium collections — from Ready-to-Wear Traditional outfits to elegant Suits, Bags, Shoes, and Accessories.</p>
             <div style="text-align:center;margin:24px 0;">
                 <a href="${STORE_URL}/shop" style="background:#0A0A0A;color:#fff;padding:14px 32px;text-decoration:none;font-size:12px;letter-spacing:2px;text-transform:uppercase;">SHOP NOW</a>
@@ -61,8 +61,8 @@ export default async function handler(req, res) {
     subject = `Order Confirmed - #${(order.order_id || '').substring(0,8).toUpperCase()}`;
     let items_html = "";
     (order.items || []).forEach(item => {
-      const size_str = item.size ? \`(\${item.size})\` : "";
-      items_html += \`<tr><td style="padding:8px;border-bottom:1px solid #eee;font-size:13px;">\${item.name} \${size_str} x\${item.quantity}</td><td style="padding:8px;border-bottom:1px solid #eee;text-align:right;font-size:13px;">&#8358;\${Number(item.item_total).toLocaleString('en-NG')}</td></tr>\`;
+      const size_str = item.size ? `(${item.size})` : "";
+      items_html += `<tr><td style="padding:8px;border-bottom:1px solid #eee;font-size:13px;">${item.name} ${size_str} x${item.quantity}</td><td style="padding:8px;border-bottom:1px solid #eee;text-align:right;font-size:13px;">&#8358;${Number(item.item_total).toLocaleString('en-NG')}</td></tr>`;
     });
 
     html = `
@@ -99,7 +99,7 @@ export default async function handler(req, res) {
 
   try {
     await transporter.sendMail({
-      from: \`"\${STORE_NAME}" <\${user}>\`,
+      from: `"${STORE_NAME}" <${user}>`,
       to,
       subject,
       html
