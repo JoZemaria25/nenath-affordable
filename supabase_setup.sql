@@ -1,5 +1,5 @@
 -- ==============================================================================
--- Nennath Kindy - Supabase Initialization Script
+-- Nenath Affordables - Supabase Initialization Script
 -- ==============================================================================
 -- 1. Create Tables
 -- ==============================================================================
@@ -137,7 +137,7 @@ INSERT INTO settings (setting_id, bank_name, account_name, account_number, whats
 VALUES (
     'global', 
     'Your Bank', 
-    'Nennath Kindy Ltd', 
+    'Nenath Affordables Ltd', 
     '0000000000', 
     '2340000000000', 
     '08000000000', 

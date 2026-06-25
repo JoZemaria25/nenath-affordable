@@ -42,7 +42,7 @@ export default function HomePage() {
       <section className="relative h-[85vh] w-full flex items-center justify-center overflow-hidden">
         <img 
           src={HERO_IMAGE} 
-          alt="Nennath Kindy Luxury Collection" 
+          alt="Nenath Affordables Luxury Collection" 
           className="absolute inset-0 w-full h-full object-cover filter brightness-[0.6] transition-transform duration-[20000ms] hover:scale-105"
           loading="eager"
         />
@@ -141,7 +141,7 @@ export default function HomePage() {
               </h2>
               <div className="w-12 h-[1px] bg-white/40"></div>
               <p className="text-lg text-gray-300 font-light leading-relaxed max-w-lg">
-                Crafted for those who demand excellence. Every Nennath Kindy piece is a statement of uncompromising quality, blending traditional heritage with modern sophistication. We believe in clothing that empowers you to leave a lasting impression.
+                Crafted for those who demand excellence. Every Nenath Affordables piece is a statement of uncompromising quality, blending traditional heritage with modern sophistication. We believe in clothing that empowers you to leave a lasting impression.
               </p>
               <div>
                 <Link to="/about">
@@ -190,7 +190,7 @@ export default function HomePage() {
       <section className="bg-[#fbfaf8] py-32 text-center border-t border-gray-200">
         <div className="max-w-3xl mx-auto px-4">
           <h2 className="text-4xl md:text-5xl font-heading font-normal mb-6 text-[#111]">
-            Experience Nennath Kindy
+            Experience Nenath Affordables
           </h2>
           <p className="text-lg text-gray-600 mb-10 font-light">
             Luxury within reach. Style without limits. Join us today and elevate your wardrobe.

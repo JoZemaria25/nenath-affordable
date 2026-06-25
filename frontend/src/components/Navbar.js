@@ -55,7 +55,7 @@ export default function Navbar() {
             {/* Left Aligned */}
             <div className="flex flex-col text-left">
               <Link to="/" data-testid="navbar-logo" className="text-[#1c1a17] font-light text-2xl lg:text-3xl tracking-[0.2em] font-heading uppercase hover:opacity-80 transition-opacity">
-                NENNATH KINDY
+                NENATH AFFORDABLES
               </Link>
               <span className="text-[10px] font-mono tracking-widest text-[#1c1a17] uppercase mt-1">
                 [ Vol. 01 — Systemic Identity Layer ]
